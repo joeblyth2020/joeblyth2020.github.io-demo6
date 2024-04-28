@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+      
+}
+
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px; 
+    background: rgb(8, 8, 8); 
+    border-bottom: 2px snow;
+}
+
+ 
+ /* this is for ul tag*/
+ .menu{
+     float: right;
+     background:none;
+ }
+ .menu li{
+     float: left;
+     width: 100px;
+     height:70px;
+     line-height: 70px;
+     text-align: center;
+     list-style: none;
+
+ }
+ .menu li a {
+     color: rgb(252, 246, 246);
+     text-decoration-style: none;
+     font-family: calibri;
+     text-transform: capitalize;
+     display: block;
+
+ }
+ .menu li:hover{
+     background:#837f7f;
+ }
+
+ body{
+    background: url("./img/websiteplat.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    text-emphasis-color: rgb(179, 176, 176);
+ }
+
+ .box:hover
+ {
+    box-shadow: 0 5px 15px rgba(187, 121, 121, 0.5);
+ }
+
+ 
+ .box{
+     position: absolute;
+     top: 60%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     width:600px;
+     padding: 10px;
+     box-sizing: border-box;
+     background: rgb(245, 241, 241);
+     border-radius: 4;
+     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+     display: flex;
+
+ }
+ .box .content p {
+     margin:0;
+     padding: 5px 0.0;
+     text-align: justify;
+
+
+ }
+ 
+ 
